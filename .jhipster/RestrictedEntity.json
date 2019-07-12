@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "restrictedMicroservice",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "myField",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190712132615",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "restricted_entity",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "restrictedMicroservice"
+}
