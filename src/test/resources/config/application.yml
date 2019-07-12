@@ -100,9 +100,14 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-        base64-secret: YjVhMzk4MWUzNzc2OTdmNmM3MTc2YzZjNGUwODMzODk0ODJkODZhOThhZWIyOTFkMjc5OGRmMTBlNTJiYzAxY2FiODI5YmJjZjdhZjMxNDM3Yzc1ZDcxMzc4YzcwNWRjZDBlNDQxY2IwZmI4ODI3YjcyZmI0MWExZTE0YjJjNzY=
+        base64-secret: OGQzMDU0NjAyOTk3NWZlNjdlYzUyNWE4Y2E4ZTE3MTE5ZTNjMzg2ZjcyMjhkYWYwMGMwYzZlYTM4MmI3MGEzOGYxMWRhNWQ1ZTA3NGQ1MDg5NWRjNzRiYTFiMGRlNDE4MjU4MmZmYjU4MzQyNDZkNmYyNGNlY2YyZDViMjNjMDI=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
+    client-authorization:
+      access-token-uri: http://uaa/oauth/token
+      token-service-id: uaa
+      client-id: internal
+      client-secret: internal
   metrics:
     logs: # Reports metrics in the logs
       enabled: true

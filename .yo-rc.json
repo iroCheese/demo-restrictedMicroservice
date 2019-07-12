@@ -1,40 +1,36 @@
 {
   "generator-jhipster": {
-    "databaseType": "sql",
-    "devDatabaseType": "h2Disk",
-    "enableHibernateCache": true,
-    "enableSwaggerCodegen": false,
-    "enableTranslation": true,
-    "jhiPrefix": "jhi",
-    "languages": [
-      "en",
-      "fr"
-    ],
-    "messageBroker": false,
-    "nativeLanguage": "en",
+    "promptValues": {
+      "packageName": "com.mycompany.myapp"
+    },
+    "jhipsterVersion": "6.1.0",
+    "applicationType": "microservice",
+    "baseName": "restrictedMicroservice",
     "packageName": "com.mycompany.myapp",
     "packageFolder": "com/mycompany/myapp",
-    "prodDatabaseType": "mysql",
-    "searchEngine": false,
-    "serviceDiscoveryType": "eureka",
-    "skipClient": true,
-    "testFrameworks": [],
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
     "websocket": false,
-    "baseName": "restrictedMicroservice",
-    "applicationType": "microservice",
-    "serverPort": "8081",
-    "jhipsterVersion": "6.1.0",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
-    "skipUserManagement": true,
-    "clientPackageManager": "npm",
-    "authenticationType": "jwt",
-    "cacheProvider": "hazelcast",
-    "jwtSecretKey": "YjVhMzk4MWUzNzc2OTdmNmM3MTc2YzZjNGUwODMzODk0ODJkODZhOThhZWIyOTFkMjc5OGRmMTBlNTJiYzAxY2FiODI5YmJjZjdhZjMxNDM3Yzc1ZDcxMzc4YzcwNWRjZDBlNDQxY2IwZmI4ODI3YjcyZmI0MWExZTE0YjJjNzY=",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OGQzMDU0NjAyOTk3NWZlNjdlYzUyNWE4Y2E4ZTE3MTE5ZTNjMzg2ZjcyMjhkYWYwMGMwYzZlYTM4MmI3MGEzOGYxMWRhNWQ1ZTA3NGQ1MDg5NWRjNzRiYTFiMGRlNDE4MjU4MmZmYjU4MzQyNDZkNmYyNGNlY2YyZDViMjNjMDI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "otherModules": []
-  },
-  "entities": [
-    "RestrictedEntity"
-  ]
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
 }

@@ -1,6 +1,7 @@
 package com.mycompany.myapp.web.rest.errors;
 
 import com.mycompany.myapp.RestrictedMicroserviceApp;
+import com.mycompany.myapp.config.SecurityBeanOverrideConfiguration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests {@link ExceptionTranslator} controller advice.
  */
-@SpringBootTest(classes = RestrictedMicroserviceApp.class)
+@SpringBootTest(classes = {SecurityBeanOverrideConfiguration.class, RestrictedMicroserviceApp.class})
 public class ExceptionTranslatorIT {
 
     @Autowired
