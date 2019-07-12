@@ -7,7 +7,7 @@
         }
     ],
     "relationships": [],
-    "changelogDate": "20190712120204",
+    "changelogDate": "20190712124433",
     "entityTableName": "restricted_entity",
     "dto": "no",
     "pagination": "no",
@@ -16,7 +16,6 @@
     "fluentMethods": true,
     "clientRootFolder": "",
     "applications": [
-        "Gateway",
         "restrictedMicroservice"
     ]
 }
