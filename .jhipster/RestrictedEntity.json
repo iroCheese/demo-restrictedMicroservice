@@ -1,0 +1,22 @@
+{
+    "name": "RestrictedEntity",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190712120204",
+    "entityTableName": "restricted_entity",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": [
+        "Gateway",
+        "restrictedMicroservice"
+    ]
+}
